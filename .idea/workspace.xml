@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Cirado Cliente Enum com tipo forEach">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionario.kt" afterDir="false" />
+    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas">
+      <change afterPath="$PROJECT_DIR$/src/main/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Gerente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/ImprimeRelatorioFuncionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioGerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/teste/BancoTeste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/teste/TesteBanco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/teste/TesteFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioAnalista.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -39,21 +40,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/teste" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projeto\Beca Santander\POO\src\main\teste" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projeto\Beca Santander\POO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TesteFuncionarioKt">
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.PessoaKt" />
-      <module name="POO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.TesteFuncionarioGerenteKt">
     <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.teste.TesteBancoKt" />
       <module name="POO" />
@@ -68,8 +65,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteFuncionarioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.teste.TesteFuncionarioKt" />
+    <configuration name="TesteFuncionarioAnalistaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteFuncionarioAnalistaKt" />
+      <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionarioGerenteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteFuncionarioGerenteKt" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.TesteFuncionarioKt" />
+        <item itemvalue="Kotlin.TesteFuncionarioGerenteKt" />
+        <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
         <item itemvalue="Kotlin.TestePessoaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
         <item itemvalue="Kotlin.TesteBancoKt" />
-        <item itemvalue="Kotlin.PessoaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625237470392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas">
+      <created>1625239151853</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1625239151853</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +174,7 @@
     <MESSAGE value="Classe conta foi criada" />
     <MESSAGE value="Final da aula um" />
     <MESSAGE value="Cirado Cliente Enum com tipo forEach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cirado Cliente Enum com tipo forEach" />
+    <MESSAGE value="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas" />
   </component>
 </project>
