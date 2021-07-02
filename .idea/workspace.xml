@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="atualização do modificador privado da função set da propriedade CPF">
+    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Classe conta foi criada">
+      <change afterPath="$PROJECT_DIR$/src/main/Banco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/BancoTeste.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pessoa.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -37,7 +41,14 @@
       <recent name="D:\Projeto\Beca Santander\POO\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.BancoTesteKt">
+    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.BancoTesteKt" />
+      <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.PessoaKt" />
       <module name="POO" />
@@ -47,6 +58,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.BancoTesteKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
     </recent_temporary>
@@ -67,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625191412983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="atualização sobre os membros de uma classe">
+      <created>1625192007158</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625192007158</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Classe conta foi criada">
+      <created>1625192585930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625192585930</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="atualização do modificador privado da função set da propriedade CPF" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização do modificador privado da função set da propriedade CPF" />
+    <MESSAGE value="atualização sobre os membros de uma classe" />
+    <MESSAGE value="Classe conta foi criada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classe conta foi criada" />
   </component>
 </project>

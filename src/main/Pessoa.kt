@@ -5,6 +5,8 @@ class Pessoa{
     var cpf: String = "123.123.123-01"
     private set
 
+    constructor()
+
     //Interpolação
     fun pessoaInfo() = "$nome e $cpf"
 
