@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Classe conta foi criada">
-      <change afterPath="$PROJECT_DIR$/src/main/Banco.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/teste/BancoTeste.kt" afterDir="false" />
+    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Final da aula um">
+      <change afterPath="$PROJECT_DIR$/src/main/ClienteTipo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteClienteTipoEnum.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pessoa.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +16,7 @@
       <list>
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -25,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ujnRNEJXqkxq8Sug0giEDiuyZK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,7 +43,7 @@
       <recent name="D:\Projeto\Beca Santander\POO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.BancoTesteKt">
+  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
     <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.teste.BancoTesteKt" />
       <module name="POO" />
@@ -56,8 +58,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteClienteTipoEnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteClienteTipoEnumKt" />
+      <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
         <item itemvalue="Kotlin.BancoTesteKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
@@ -93,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625192585930</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Final da aula um">
+      <created>1625193637399</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625193637399</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,11 +129,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="atualização do modificador privado da função set da propriedade CPF" />
     <MESSAGE value="atualização sobre os membros de uma classe" />
     <MESSAGE value="Classe conta foi criada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe conta foi criada" />
+    <MESSAGE value="Final da aula um" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final da aula um" />
   </component>
 </project>
