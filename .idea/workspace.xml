@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas">
-      <change afterPath="$PROJECT_DIR$/src/main/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/teste/ImprimeRelatorioFuncionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioGerente.kt" afterDir="false" />
+    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="nova classe gerente e analista adicionados">
+      <change afterPath="$PROJECT_DIR$/src/main/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Logavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteAutenticacao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteCliente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/teste/TesteFuncionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioAnalista.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioGerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionarioGerente.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Class" />
         <option value="Kotlin Class" />
@@ -50,9 +51,9 @@
       <recent name="D:\Projeto\Beca Santander\POO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TesteFuncionarioGerenteKt">
-    <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.teste.TesteBancoKt" />
+  <component name="RunManager" selected="Kotlin.TesteClienteKt">
+    <configuration name="TesteClienteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteClienteKt" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteClienteKt" />
         <item itemvalue="Kotlin.TesteFuncionarioGerenteKt" />
         <item itemvalue="Kotlin.TesteFuncionarioAnalistaKt" />
         <item itemvalue="Kotlin.TestePessoaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
-        <item itemvalue="Kotlin.TesteBancoKt" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625239151853</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="nova classe gerente e analista adicionados">
+      <created>1625241720792</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1625241720792</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +183,7 @@
     <MESSAGE value="Final da aula um" />
     <MESSAGE value="Cirado Cliente Enum com tipo forEach" />
     <MESSAGE value="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização da classe Pessoa e funcionario, foram transformadas em classes abstratas" />
+    <MESSAGE value="nova classe gerente e analista adicionados" />
+    <option name="LAST_COMMIT_MESSAGE" value="nova classe gerente e analista adicionados" />
   </component>
 </project>
