@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Final da aula um">
-      <change afterPath="$PROJECT_DIR$/src/main/ClienteTipo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteClienteTipoEnum.kt" afterDir="false" />
+    <list default="true" id="c5522d5c-819a-4b39-af12-60d6eb5a53f3" name="Default Changelist" comment="Cirado Cliente Enum com tipo forEach">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/Funcionario.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/teste/TesteFuncionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/teste/BancoTeste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/teste/TesteBanco.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -43,16 +46,16 @@
       <recent name="D:\Projeto\Beca Santander\POO\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TesteClienteTipoEnumKt">
-    <configuration name="BancoTesteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.teste.BancoTesteKt" />
+  <component name="RunManager" selected="Kotlin.TesteFuncionarioKt">
+    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.PessoaKt" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.PessoaKt" />
+    <configuration name="TesteBancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteBancoKt" />
       <module name="POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,10 +68,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteFuncionarioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TesteFuncionarioKt" />
+      <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.teste.TestePessoaKt" />
+      <module name="POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TesteFuncionarioKt" />
+        <item itemvalue="Kotlin.TestePessoaKt" />
         <item itemvalue="Kotlin.TesteClienteTipoEnumKt" />
-        <item itemvalue="Kotlin.BancoTesteKt" />
+        <item itemvalue="Kotlin.TesteBancoKt" />
         <item itemvalue="Kotlin.PessoaKt" />
       </list>
     </recent_temporary>
@@ -110,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625193637399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Cirado Cliente Enum com tipo forEach">
+      <created>1625237470392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625237470392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,6 +162,7 @@
     <MESSAGE value="atualização sobre os membros de uma classe" />
     <MESSAGE value="Classe conta foi criada" />
     <MESSAGE value="Final da aula um" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final da aula um" />
+    <MESSAGE value="Cirado Cliente Enum com tipo forEach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cirado Cliente Enum com tipo forEach" />
   </component>
 </project>
